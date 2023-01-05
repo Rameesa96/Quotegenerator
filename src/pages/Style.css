@@ -21,9 +21,25 @@
     width:50%;
     margin: 0 auto;
     padding: 2rem;
+    background-color: rgb(174, 24, 24)!important;
+    color:white !important
 }
 .inputselector{
     width:20%;
     margin: 0 auto;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem
+}
+.cardcontent{
+    background-color:rgb(174, 24, 24)!important;
+}
+Button{
+    padding: 1rem !important;
+    background-color: rgb(39, 186, 39) !important;
+}
+.author{
+    text-align: right !important; 
+    margin-top: 50px !important;
 }
