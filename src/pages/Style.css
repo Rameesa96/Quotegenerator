@@ -6,10 +6,11 @@
     gap:calc(85%) !important
     
 }
-.Home{
-    color:White;
+.Home{ 
+    color:White !important;
     font-size: 25px;
     font-weight: 700;
+    text-decoration: none !important;
 }
 .bookmark{
     float: right !important;
@@ -21,13 +22,15 @@
     width:50%;
     margin: 0 auto;
     padding: 2rem;
-    background-color: rgb(120, 20, 20)!important;
+    padding-top: 0rem !important;
+    background:none;
+    border: none;
     color:white !important;
-    margin-top: 2rem;
+   
     
 }
 .inputselector{
-    width:20%;
+    width:16%;
     margin: 0 auto;
     padding: 2rem;
     display: flex;
@@ -41,14 +44,65 @@
 
 }
 .cardcontent{ 
-    background-color:rgb(120, 20, 20)!important;
+    background-color:#D05252!important;
     margin-top: 20px !important;
 }
 .btn1{
-    padding: 1rem !important;
-    background-color: rgb(21, 89, 21) !important;
+    background: #009C51;
+box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+border: none;
+padding: 10px;
+color:white
 }
 .author{
     text-align: right !important; 
     margin-top: 50px !important;
+}
+@media screen and (max-width:1024px) {
+    .card{
+        width:70%;
+      
+        
+    }
+    .inputselector{
+        width:25%;
+       
+    
+    }
+    .header{
+        
+        gap:calc(75%) !important
+        
+    }
+}
+@media screen and (max-width:600px) {
+    .header{
+        width:100% !important;
+        padding: 0rem;
+    }
+    .card{
+        width:90% !important;
+        padding: 0rem;
+        
+    }
+    .inputselector{
+        width:75%;
+       
+    
+    }
+    .header{
+        padding-left: 1rem;
+        gap:calc(50%) !important
+        
+    }
+}
+
+
+@media screen and (max-width:325px){
+    .header{
+        padding-left: 1rem;
+        gap:calc(40%) !important
+        
+    }
 }

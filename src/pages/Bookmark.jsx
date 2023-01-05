@@ -13,7 +13,7 @@ function Bookmark() {
     <Link to='/'><p className='Home'>Home</p></Link>
        <p className='bookmark'>Bookmark</p>
     </div>
-    {bookmarkList.map((random)=>(  <div className='card'> 
+    <div className='card'> {bookmarkList.map((random)=>(  
     <Card className='cardcontent' sx={{ minWidth: 275 }}>
    <CardContent>
     
@@ -21,7 +21,7 @@ function Bookmark() {
       {random.text}
     </Typography>
     <Typography sx={{ mb: 1.5 ,color:"white"}} className="author" color="text.secondary">
-     {random.author}
+     -{random.author}
     </Typography>
    
   </CardContent>
@@ -30,7 +30,7 @@ function Bookmark() {
   </CardActions>
 </Card>
    
-</div> ))} 
+ ))} </div>
    
     
 </div>

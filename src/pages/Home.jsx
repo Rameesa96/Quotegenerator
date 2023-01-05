@@ -56,11 +56,11 @@ const handleClick1=()=>{
         <Card className='cardcontent' sx={{ minWidth: 275 }}>
       <CardContent>
         
-        <Typography sx={{color:"white"}} variant="h5" component="div">
+        <Typography sx={{color:"white"}} variant="h5" className='quote' component="div">
           {random.text}
         </Typography>
         <Typography sx={{ mb: 1.5 ,color:"white"}} className="author" color="text.secondary">
-         {random.author} <button onClick={handleClick1} className="btn"><BookmarkIcon sx={{color:"white"}}/></button>
+         -{random.author} <button onClick={handleClick1} className="btn"><BookmarkIcon sx={{color:"white"}}/></button>
         </Typography>
        
       </CardContent>
@@ -84,7 +84,7 @@ const handleClick1=()=>{
         </Form.Control>
       </Form.Group>  
       </Form> */}
-      <Button onClick={handleClick} className="btn1">Next Quote</Button>
+      <button onClick={handleClick} className="btn1">Next Quote</button>
 
         </div>
     </div>
