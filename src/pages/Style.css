@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    width:85% !important;
+    margin: 0 auto;
+    padding: 2rem;
+    gap:calc(85%) !important
+    
+}
+.Home{
+    color:White;
+    font-size: 25px;
+    font-weight: 700;
+}
+.bookmark{
+    float: right !important;
+    color:rgba(255, 255, 255, 0.922);
+    font-size: 25px;
+    font-weight: 300;
+}
+.card{
+    width:50%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.inputselector{
+    width:20%;
+    margin: 0 auto;
+    padding: 2rem;
+}
